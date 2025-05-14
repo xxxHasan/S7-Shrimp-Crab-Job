@@ -1,7 +1,7 @@
 
+
 # **Shrimp & Crab Job Script for FiveM (ESX / Ox Inventory)**
 
-## **Overview**
 
 The **Shrimp & Crab Job Script** is a custom resource for FiveM servers running on the **ESX framework**, designed to allow players to collect, process, and sell shrimp and crab. Using **ox\_inventory**, players can gather seafood, process it into packed seafood, and then sell it for in-game currency.
 
@@ -41,13 +41,7 @@ This script adds an interactive roleplay job for your server, enhancing the imme
 
 ### 4. **Logging:**
 
-* When a player sells seafood, the script sends a detailed log to a Discord channel, including:
-
-  * Player’s in-game name
-  * Player's license ID
-  * Number of Packed Shrimp and Packed Crab sold
-  * Total money earned
-
+* When a player sells seafood, the script sends a detailed log to a Discord channel.
 ## **Requirements**
 
 * **ESX Framework** (for server-side player management)
@@ -70,16 +64,3 @@ This script adds an interactive roleplay job for your server, enhancing the imme
 3. Customize the `Config.lua` to set up the items, prices, and Discord webhook.
 4. Ensure you have **ESX** and **ox\_inventory** properly set up on your server.
 
-## **Commands & Keybinds**
-
-* **Collect Seafood**: Interact with the collection point to gather Crab or Shrimp.
-* **Process Seafood**: Stand near the processing point and press the "E" key to start processing.
-* **Sell Seafood**: Stand near the selling point and press the "E" key to sell the packed seafood.
-
-## **Changelog**
-
-* **Version 1.0**: Initial release with collection, processing, selling, and Discord logging features.
-
-## **License**
-
-This project is licensed under the MIT License.
